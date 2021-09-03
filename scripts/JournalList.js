@@ -1,11 +1,12 @@
-import { getEntries, saveEntry } from "./JournalData.js";
+import { getEntries } from "./data/DataManager.js";
 import { entryCard } from "./EntryCard.js";
 
 export const ListEntries = () => {
     let container = document.getElementById("currentEntries")
-    let html = ""
-    for (const entry of getEntries()) {
-        html += entryCard(entry)
-    }
-    container.innerHTML = `${html}`
+    getEntries().then(entries => {
+        for (let i = 0; i < entries.length; i++) {
+            console.log(entries[i])
+            container.innerHTML += entryCard(entries[i])
+        }
+    })
 }

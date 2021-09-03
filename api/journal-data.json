@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": "0",
+      "name": "Samuel Ferrell",
+      "email": "samuelcatferrell@gmail.com",
+      "dateJoined": "08/01/2021"
+    }
+  ],
+  "journalEntry": [
+    {
+      "id": "0",
+      "date": "08/01/2021",
+      "concepts": "[Concepts Covered]",
+      "entry": "[Journal Entry]",
+      "mood": "Happy"
+    },
+    {
+      "id": "1",
+      "date": "08/02/2021",
+      "concepts": "[Concepts Covered 2]",
+      "entry": "[Journal Entry 2]",
+      "mood": "Happy"
+    },
+    {
+      "date": "2021-09-03",
+      "concepts": "Improved journal page",
+      "entry": "Added data manager functions",
+      "mood": "focused",
+      "id": "JKH2J98"
+    }
+  ]
+}

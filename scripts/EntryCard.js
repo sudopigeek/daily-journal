@@ -1,9 +1,10 @@
 export const entryCard = (entryObj) => {
     return `
         <section class="journalEntry">
-            <h3>${entryObj.date}</h3>
-            <h5>${entryObj.concepts}</h5>
-            <p>${entryObj.entry}</p>
+            <h2>${entryObj.date}</h2>
+            <h4>${entryObj.concepts}</h4>
+            <h5>${entryObj.entry}</h5>
+            <p>Mood: ${entryObj.mood}</p>
         </section>
     `
 }
