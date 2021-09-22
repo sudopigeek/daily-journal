@@ -9,25 +9,33 @@
   ],
   "journalEntry": [
     {
-      "id": "0",
-      "date": "08/01/2021",
-      "concepts": "[Concepts Covered]",
-      "entry": "[Journal Entry]",
-      "mood": "Happy"
-    },
-    {
-      "id": "1",
-      "date": "08/02/2021",
-      "concepts": "[Concepts Covered 2]",
-      "entry": "[Journal Entry 2]",
-      "mood": "Happy"
-    },
-    {
+      "id": "JKH2J98",
       "date": "2021-09-03",
       "concepts": "Improved journal page",
       "entry": "Added data manager functions",
+      "mood": "focused"
+    },
+    {
+      "id": "BlWIdU0",
+      "date": "2021-09-03",
+      "concepts": "aaaaaa",
+      "entry": "bbbbbbbbb",
+      "mood": "happy"
+    },
+    {
+      "id": "3-fmmbI",
+      "date": "2021-09-03",
+      "concepts": "aaaaaa",
+      "entry": "bbbbbbbbb cccccccc ddddddddd",
+      "mood": "focused"
+    },
+    {
+      "author": "Samuel Ferrell",
+      "date": "2021-09-22",
+      "concepts": "Added login functionality",
+      "entry": "[ENTRY]",
       "mood": "focused",
-      "id": "JKH2J98"
+      "id": "g6pw-Ar"
     }
   ]
 }

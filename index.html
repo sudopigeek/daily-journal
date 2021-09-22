@@ -13,15 +13,16 @@
     <header>
         <img src="logo.png" alt="Logo">
         <h1>Samuel Ferrell's Journal</h1>
+        <button id="logout">Logout</button>
     </header>
     <main>
         <form id="entryForm">
             <input class="entryForm" type="date" placeholder="Date" id="entryDate">
             <input class="entryForm" type="text" placeholder="Concepts Covered" id="conceptsCovered">
-            <textarea class="entryForm" placeholder="Journal Entry" id="" cols="30" rows="10"></textarea>
+            <textarea class="entryForm" placeholder="Journal Entry" id="journalEntry" cols="30" rows="10"></textarea>
             <select class="entryForm" name="Mood" id="mood">
-                <option value="happy">Happy</option>
                 <option value="focused">Focused</option>
+                <option value="happy">Happy</option>
                 <option value="sad">Sad</option>
             </select>
             <input class="entryForm" type="submit" value="Record Entry" id="recordEntry">

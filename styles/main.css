@@ -32,3 +32,12 @@ main, main form {
     padding: 5px;
     border: 2px solid black;
 }
+#editEntryForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.editEntry {
+    margin: 3px;
+}
+
